@@ -19,12 +19,7 @@ class School
     sorted = {}
     @roster.each do |student_grade, student_name|
       sorted[student_grade] = student_name.sort
-      sorted
     end
-      
+    sorted
   end
-      
-  
-  
-  
 end
