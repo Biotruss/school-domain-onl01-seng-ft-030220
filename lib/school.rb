@@ -16,8 +16,9 @@ class School
   end
   
   def sort
-    sorted = []
+    sorted = {}
     @roster.each do |student_grade, student_name|
+      sorted[student_grade]
       
   end
       
